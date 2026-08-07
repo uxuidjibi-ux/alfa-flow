@@ -1,0 +1,55 @@
+DÉPOSER ALFA FLOW SUR GITHUB
+============================
+
+AVANT DE COMMENCER — LISEZ CECI
+  Le cahier des charges de Groupe Alfa porte la mention « Confidentiel ».
+  Ce dépôt contient l'adresse, le téléphone, le logo et les conditions de
+  vente réelles de l'entreprise.
+
+  → Demandez l'accord écrit de Djamel Meziani avant de le rendre PUBLIC.
+  → En attendant, créez le dépôt en PRIVÉ. Vous pouvez inviter un recruteur
+    à le consulter (Settings → Collaborators), ou le basculer en public plus tard
+    en un clic.
+
+  Ce qui a déjà été retiré : le nom de l'employée relevé sur le bon papier.
+  Les clients et chantiers de démonstration sont fictifs et marqués « demo ».
+
+CRÉER LE DÉPÔT
+  1. github.com → New repository
+  2. Nom : alfa-flow
+  3. Description : Gestion de stock, locations et retours — React + TypeScript
+  4. Visibilité : Private (voir ci-dessus)
+  5. NE cochez rien (ni README, ni .gitignore, ni licence — ils sont déjà là)
+  6. Create repository
+
+POUSSER LE CODE
+  Ouvrez le Terminal, placez-vous dans le dossier alfa-flow, puis :
+
+    git init
+    git add .
+    git commit -m "ALFA Flow — démonstrateur de gestion de matériel"
+    git branch -M main
+    git remote add origin https://github.com/VOTRE-NOM/alfa-flow.git
+    git push -u origin main
+
+  Remplacez VOTRE-NOM par votre identifiant GitHub.
+  Si un mot de passe est demandé : GitHub exige un jeton, pas votre mot de passe.
+  github.com → Settings → Developer settings → Personal access tokens →
+  Generate new token (classic) → cochez « repo ». Collez le jeton comme mot de passe.
+
+APRÈS LE PREMIER DÉPÔT
+  1. Ouvrez README.md sur GitHub et remplacez le lien « Voir la démonstration
+     en ligne » par votre adresse Netlify. C'est la première chose qu'un
+     recruteur cliquera.
+  2. Dans la page du dépôt → About (roue dentée à droite) :
+     ajoutez l'adresse de la démonstration et les sujets :
+     react, typescript, inventory-management, vite, tailwindcss, accessibility
+
+METTRE À JOUR PLUS TARD
+    git add .
+    git commit -m "description de ce qui change"
+    git push
+
+CE QUI N'EST PAS ENVOYÉ
+  Le fichier .gitignore exclut node_modules, dist et les rapports de test.
+  C'est normal : ces dossiers se régénèrent avec npm install.
