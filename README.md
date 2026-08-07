@@ -3,7 +3,7 @@
 **Plateforme de gestion de stock, de locations et de retours pour une entreprise de
 matériel d'échafaudage.** Démonstrateur fonctionnel, React + TypeScript.
 
-> 🔗 **[Voir la démonstration en ligne](#)** — *remplacez ce lien par votre adresse*
+> 🔗 **[[Voir la démonstration en ligne](https://alfa-flow.netlify.app/)](#)** — *remplacez ce lien par votre adresse*
 > 📄 [Cahier des charges → décisions techniques](docs/ASSUMPTIONS.md) ·
 > [Ce qui marche, ce qui est simulé](docs/MVP_VS_PRODUCTION.md) ·
 > [Documentation technique](docs/PROJET.md)
